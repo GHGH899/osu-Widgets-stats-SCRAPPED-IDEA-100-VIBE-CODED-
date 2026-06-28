@@ -1,0 +1,3 @@
+filter ($user: User, $session: Session) on OsuConnection [
+  where userId == $user.id
+]
